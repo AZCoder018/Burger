@@ -27,3 +27,17 @@
     <div class="col-md-4">
       <h3 class="submitFont">Devoured Burgers</h3>
       <div id="alreadyEaten">
+
+ <!--Add Devoured Burgers to list-->
+     {{#each burgers}}
+        {{#if this.devoured}}
+        <div class="input-group">
+            <li class="form-control">{{this.id}}. {{this.burger_name}}</li>
+        </div>
+        {{/if}}
+     {{/each}}
+
+      </div>
+    </div>
+  </center>
+</div>

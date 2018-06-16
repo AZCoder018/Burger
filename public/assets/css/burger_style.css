@@ -2,9 +2,9 @@ body {
   background-color: yellow;
 }
 
-.jumbotron h1 {
+#title {
 	color: green;
-	font-size: 80px;
+	font-size: 45px;
 	font-weight: 200;
 	font-family: Georgia, 'Times New Roman', Times, serif;
 	text-shadow: 1px 1px 2px black;
@@ -17,7 +17,7 @@ body {
 }
 
 img {
-	margin-top: 5%;
+	margin-top: 3%;
 	width: 15%;
 	border: 13px double black;
 	background-color: red;
@@ -26,11 +26,33 @@ img {
 .word {
 	color: black;
 	font-family: 'Times New Roman', Times, serif;
-	font-size: 1000px;
-	font-weight: 400;
+	font-size: 20px;
+	font-weight: 100;
 }
 
-.submitFont{
+.submitFont {
 	color: black;
 	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.form-control-submit {
+	width: 50%;
+	margin-left: 25%;
+	font-family: 'Times New Roman', Times, serif;
+}
+
+.submitFontText {
+	color: black;
+	font-size: 17px;
+	font-family: 'Times New Roman', Times, serif;
+}
+
+.input-group-menu {
+	margin-left: 40%;
+}
+
+#submit-button {
+	color: white;
+	background-color: red;
+	border: solid black;
 }

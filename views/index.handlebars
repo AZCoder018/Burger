@@ -1,6 +1,24 @@
 <div class="row">
   <center>
+
 <!--Menu -->
-    <div class="col-md-4">
-      <h3 class="submitFont">Menu</h3>
-      <div id="burgersAvailable">
+<div class="col-md-4">
+     <h3 class="submitFont">Menu</h3>
+    <div id="burgersAvailable">
+
+<!--Add burgers to Menu, with number list and "Devour It!" buttons-->
+     {{#each burgers}}
+        {{#unless devoured}}
+          <form action="burger/eat/{{id}}" method="POST">
+            <div class="input-group">
+              <li class="form-control">{{id}}. {{burger_name}}</li>
+                <span class="input-group-btn">
+                  <button class="btn btn-success devour-button" type="submit">Devour It!</button>
+                </span>
+            </div>
+          </form>
+        {{/unless}}
+    {{/each}}
+      </div>
+    </div>
+    <div class="col-md-4"></div> 

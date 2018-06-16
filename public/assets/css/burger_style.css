@@ -56,3 +56,9 @@ img {
 	background-color: red;
 	border: solid black;
 }
+
+.btn{
+	color: red;
+	background-color: greenyellow;
+	border: double black;
+}

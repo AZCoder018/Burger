@@ -15,9 +15,9 @@ You have two (2) options for using this application:
 
     - Clone or download the repository for EAT-DA-BURGER!;
 
-    - Open MySQL Workbench. Run the schema.sql and seeds.sql files located in the folder named "db", in the EAT-DA-BURGER! folder. 
+    - Open MySQL Workbench. Run the schema.sql and seeds.sql files located in the folder named "db", in the EAT-DA-BURGER! folder;
 
-    - Open GitBash or Terminal, making sure that you are in the folder location of EAT-DA-BURGER!, and run command 'npm install', to complete installation (all necessary apis from npm.js will be downloaded and installed). 
+    - Open GitBash or Terminal, making sure that you are in the folder location of EAT-DA-BURGER!, and run command 'npm install', to complete installation (all necessary apis from npm.js will be downloaded and installed);
 
     - Type 'node server.js' on the command line and press enter. The following should be returned: "App is now listening on PORT:3000"; and
 

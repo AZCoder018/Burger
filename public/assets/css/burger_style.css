@@ -41,6 +41,7 @@ img {
 	font-family: 'Times New Roman', Times, serif;
 	margin-top: 0px;
 	padding-top: 0px;
+	margin-left: 15%;
 }
 
 .form-control-submit {
@@ -53,6 +54,9 @@ img {
 	color: black;
 	font-size: 17px;
 	font-family: 'Times New Roman', Times, serif;
+	margin-left: 0%;
+	border-left: 0%;
+	padding-left: 0%;
 }
 
 .input-group-menu {
@@ -69,4 +73,13 @@ img {
 	color: red;
 	background-color: greenyellow;
 	border: double black;
+}
+
+#Menu {
+	margin-left: 15%;
+}
+
+#Devoured {
+	text-align: center;
+	margin-left: 15%;
 }

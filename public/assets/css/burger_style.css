@@ -1,5 +1,6 @@
 body {
   background-color: yellow;
+  width: 100%;
 }
 
 #title {
@@ -10,14 +11,16 @@ body {
 	text-shadow: 1px 1px 2px black;
 	margin-bottom: 0px;
 	margin-top: 0px;
+	margin-left: 0%;
 
 }
 
 .jumbotron {
 	padding-top: 1%;
-	background-color:transparent !important;
+	background-color:transparent;
 	margin-bottom: 0px;
 	padding-bottom: 1%;
+	width: 100%;
 }
 
 img {
@@ -25,6 +28,7 @@ img {
 	width: 15%;
 	border: 13px double black;
 	background-color: red;
+	margin-left: 43%;
 }
 
 .word {
@@ -41,7 +45,7 @@ img {
 	font-family: 'Times New Roman', Times, serif;
 	margin-top: 0px;
 	padding-top: 0px;
-	margin-left: 15%;
+	text-align: center;
 }
 
 .form-control-submit {
@@ -61,12 +65,15 @@ img {
 
 .input-group-menu {
 	margin-left: 40%;
+	width: 100%
 }
 
 #submit-button {
 	color: white;
 	background-color: red;
 	border: solid black;
+	margin-top: 0px;
+	margin-bottom: 10px;
 }
 
 .btn{
@@ -76,10 +83,8 @@ img {
 }
 
 #Menu {
-	margin-left: 15%;
 }
 
 #Devoured {
-	text-align: center;
-	margin-left: 15%;
+	
 }

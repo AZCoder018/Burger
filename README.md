@@ -3,7 +3,7 @@
 #### __WHAT DOES THIS APP DO?__
 
 EAT-DA-BURGER! is a 'burger logger' restaurant application. Users may submit names of burgers they would like to eat, which then get added to the "Menu". Users may also choose from the "Menu"
-the burgers they would like to "devour". When a burger is devoured, it is added to a list of "Devoured Burgers".  EAT-DA-BURGER! utilizes MySQL, Node, Express, Handlebars and a homemade Object Relational Mapping (ORM). 
+the burgers they would like to "devour". When a burger is devoured, it is added to a list of "Devoured Burgers".  EAT-DA-BURGER! utilizes MySQL, Node, Express, Handlebars and a homemade (ORM). 
 
 #### __HOW DO YOU GET STARTED?__
 

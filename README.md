@@ -9,7 +9,7 @@ the burgers they would like to "devour". When a burger is devoured, it is added 
 
 You have two (2) options for using this application:
 
-1. Click on the following link to where the application is hosted on Heroku: https://protected-plains-60194.herokuapp.com ; or
+1. Click on the following link to where the application is hosted on Heroku: https://gentle-atoll-76237.herokuapp.com/index; or
 
 2. Make sure that you have node.js installed on your computer, then:
 
@@ -25,7 +25,7 @@ You have two (2) options for using this application:
 
 #### __HOW DOES EAT-DA-BURGER! WORK?__
 
-1. If you want to add your own burger to the Menu, located on the left side of the screen, type the name of your burger in the text box located below "Add Your Burger to the Menu:". Once you have typed the      name of your burger, click submit. Your burger will be added to the database and the name will appear on the Menu.
+1. If you want to add your own burger to the Menu, located on the left side of the screen, type the name of your burger in the text box located below "Add Your Burger to the Menu:". Once you have typed the name of your burger, click submit. Your burger will be added to the database and the name will appear on the Menu.
 
 2. If you want to eat a burger on the Menu, click the button "Devour It!", next to the burger you have chosen. The burger you have just devoured will appear on the "Devoured Burgers" list, located on the        right side of the screen.
 
